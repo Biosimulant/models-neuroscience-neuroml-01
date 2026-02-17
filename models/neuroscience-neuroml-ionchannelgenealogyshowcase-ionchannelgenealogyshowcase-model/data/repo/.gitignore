@@ -1,0 +1,6 @@
+/NeuroML2/*.dat
+/NeuroML2/report.txt
+*mod
+*hoc
+*nrn.py
+x86_64

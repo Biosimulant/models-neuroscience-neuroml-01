@@ -1,0 +1,73 @@
+# Framework for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
+dist: xenial
+
+addons:
+  apt:
+    packages:
+    - python-tk
+    - python-numpy 
+    - python-lxml
+    - python-tornado
+    - python-tables
+
+language: python
+python: 3.6
+
+env:
+    - OMV_ENGINE=jNeuroML
+    - OMV_ENGINE=jNeuroML_NEURON
+    - OMV_ENGINE=jNeuroML_NetPyNE
+    
+    # This hoc command: voltage.record(&v(0.5), 0.025) seems to give inconsistent results on 7.4...
+    # - OMV_ENGINE=NEURON:7.4 
+    
+    - OMV_ENGINE=NEURON:7.7
+    - OMV_ENGINE=NEURON   # Latest OMV version
+    - OMV_ENGINE=jNeuroML_validate
+    - OMV_ENGINE=NON_OMV_TESTS
+
+install:
+    
+    # Install OMV
+    - pip install git+https://github.com/OpenSourceBrain/osb-model-validation
+
+    # Install libNeuroML & pyNeuroML
+
+    - pip install pyNeuroML 
+    - pip install matplotlib>=2.2.5 # This is more because Matplotlib v2.x is required...
+    - pip install future pandas matplotlib-scalebar bokeh scipy
+
+
+    #   Install OSB API
+    - git clone https://github.com/OpenSourceBrain/OSB_API.git
+    - cd OSB_API/python
+    - python setup.py install
+
+
+    - cd $TRAVIS_BUILD_DIR
+
+script:
+
+    - omv all -V; export OMV_SUCCESS=$?; echo $OMV_SUCCESS
+    - echo "Finished all OMV tests"
+    - omv list -V
+    - if [[ ${OMV_ENGINE} == "NON_OMV_TESTS" ]]; then echo "Continuing with tests not under OMV..."; else exit $OMV_SUCCESS; fi
+    - echo "Running non OMV tests..."
+    
+    # Test Channelpedia related scripts
+    - cd Channelpedia
+    - python ChannelpediaToNeuroML2.py HCN1
+    - python analyse.py
+    - pynml LEMS_Test_HCN1.xml -nogui
+    
+    # Test NMC related scripts
+    - omv install NEURON    
+    - pip install jinja2
+    - cd ../NMC/parser    
+    - nrnivmodl ../NEURON/ # compile mod files for use here; nrnivmodl installed with Neuron via pip
+    - python ParseAll.py
+    - omv list -V
+    
+
+    
+    

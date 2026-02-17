@@ -1,0 +1,7 @@
+system: Test 2007
+
+experiments:
+    RS2007_100:
+        expected:
+            spike times: [120.28, 188.9075, 265.2875, 341.305, 417.3325]
+

@@ -1,0 +1,54 @@
+name: Continuous builds
+
+on:
+  push:
+    branches: [ main, development, experimental, test* ]
+  pull_request:
+    branches: [ main, development, experimental, test* ]
+
+jobs:
+  build:
+  
+    runs-on: ${{ matrix.runs-on }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        runs-on: [ ubuntu-22.04, macos-14 ]
+        engine:
+            - jNeuroML
+            - jNeuroML_NEURON
+            - "jNeuroML_EDEN:0.2.1"
+            - "jNeuroML_EDEN:0.2.2"
+            - "jNeuroML_EDEN:0.2.3"
+            - jNeuroML_validate
+            - "EDEN:0.2.0"
+            - "EDEN:0.2.2"
+            - "EDEN:0.2.3"
+
+        python-version: [ "3.12" ]
+        
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python  ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version:  ${{ matrix.python-version }}
+        
+    - name: Install OMV
+      run: |
+        pip install git+https://github.com/OpenSourceBrain/osb-model-validation
+
+        pip install setuptools --upgrade # needed for eden on Python 3.12
+        
+    - name: Run OMV tests on engine ${{ matrix.engine }}
+      run: |
+        omv all -V --engine=${{ matrix.engine }}
+        
+        
+    - name: Print final OMV/engine version info
+      run: |
+        omv list -V # list installed engines
+        pip list
+        env

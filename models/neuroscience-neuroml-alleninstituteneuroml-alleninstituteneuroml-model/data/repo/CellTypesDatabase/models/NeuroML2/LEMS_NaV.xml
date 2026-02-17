@@ -1,0 +1,74 @@
+<Lems xmlns="http://www.neuroml.org/lems/0.7.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/lems/0.7.2  https://raw.github.com/LEMS/LEMS/development/Schemas/LEMS/LEMS_v0.7.2.xsd">
+
+    <Target component="sim1" reportFile="simulator.props" timesFile="time.dat"/>
+
+        <!--Include standard NeuroML 2 ComponentType definitions-->
+
+    <Include file="Cells.xml"/>
+    <Include file="Networks.xml"/>
+    <Include file="Simulation.xml"/>
+
+
+        <!--   Channel/synapse files-->
+    <Include file="NaV.channel.nml"/>
+
+    <Include file="pas.channel.nml"/>
+
+        <!--   Cell files-->
+    <Include file="Soma_NaV.cell.nml"/>
+        <!--   Network file-->
+    <Include file="Soma_NaV.net.nml"/>
+    
+
+        <!--Note: this could be: Simulation id="sim1" ... , but Component type="Simulation" ... 
+        is used to allow validation of this file according to the LEMS schema specified above...-->
+    <Component type="Simulation" id="sim1" length="600.0ms" step="0.01ms" target="network_Soma">
+        
+        <Display id="CG_TestMod_v" title="Soma VOLTAGE" xmin="-60.0" xmax="660.0" ymin="-120.0" ymax="64.0" timeScale="1ms">
+            <Line id="VOLTAGE" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/v" scale="1 mV" color="#000000"/>
+        </Display>
+        
+        <Display id="GraphWin_0" title="Soma channels" xmin="-60.0" xmax="660.0" ymin="-0.1" ymax="1.1" timeScale="1ms">
+            <Line id="O" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/O/occupancy" scale="1" color="#FFFFFF"/>
+            <Line id="C1" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C1/occupancy" scale="1" color="#FF0000"/>
+            <Line id="C2" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C2/occupancy" scale="1" color="#00FF00"/>
+            <Line id="C3" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C3/occupancy" scale="1" color="#0000FF"/>
+            <Line id="C4" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C4/occupancy" scale="1" color="#FFFF00"/>
+            <Line id="C5" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C5/occupancy" scale="1" color="#FF00FF"/>
+            
+            <Line id="I1" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I1/occupancy" scale="1" color="#001111"/>
+            <Line id="I2" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I2/occupancy" scale="1" color="#003333"/>
+            <Line id="I3" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I3/occupancy" scale="1" color="#005555"/>
+            <Line id="I4" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I4/occupancy" scale="1" color="#007777"/>
+            <Line id="I5" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I5/occupancy" scale="1" color="#009999"/>
+            <Line id="I6" timeScale="1ms" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I6/occupancy" scale="1" color="#00aaaa"/>
+        </Display>
+        
+        
+        
+        <OutputFile id="v" fileName="NaV.v.dat">
+            <OutputColumn id="v" quantity="CG_TestCML/0/Soma_NaV/v"/>
+        </OutputFile>
+        
+        <OutputFile id="states" fileName="NaV.states.dat">
+            <OutputColumn id="O" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/O/occupancy"/>
+            <OutputColumn id="C1" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C1/occupancy"/>
+            <OutputColumn id="C2" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C2/occupancy"/>
+            <OutputColumn id="C3" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C3/occupancy"/>
+            <OutputColumn id="C4" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C4/occupancy"/>
+            <OutputColumn id="C5" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/C5/occupancy"/>
+            
+            <OutputColumn id="I1" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I1/occupancy"/>
+            <OutputColumn id="I2" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I2/occupancy"/>
+            <OutputColumn id="I3" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I3/occupancy"/>
+            <OutputColumn id="I4" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I4/occupancy"/>
+            <OutputColumn id="I5" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I5/occupancy"/>
+            <OutputColumn id="I6" quantity="CG_TestCML/0/Soma_NaV/biophys/membraneProperties/NaV_all/NaV/n/I6/occupancy"/>
+            
+        </OutputFile>
+        
+        
+    </Component>
+
+
+</Lems>

@@ -1,0 +1,77 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Continuous builds
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main, development, experimental ]
+  pull_request:
+    branches: [ main, development, experimental ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ 3.9, "3.11", "3.12" ]
+        engine: [ jNeuroML_NEURON, pyNeuroML, jNeuroML, Arbor, "Arbor:0.8", "Arbor:0.8.1", "Arbor:0.9.0" ]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python  ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version:  ${{ matrix.python-version }}
+
+    - name: Install OMV
+      run: |
+        pip install git+https://github.com/OpenSourceBrain/osb-model-validation
+        pip install pandas seaborn # required for some test python scripts
+        omv list -V
+
+    - name: Run OMV tests on engine ${{ matrix.engine }}
+      run: |
+        omv all -V --engine=${{ matrix.engine }}
+        
+    - name: Install Arbor
+      run: |
+        # Note: specific version of Arbor may have been installed above if Arbor version specfied
+        omv install arbor # use omv preferred version...
+        pip list
+
+    - name: Run Arbor example
+      run: |
+        cd Arbor
+        python info.py
+        python network_ring.py
+        python custom_net.py
+        python simple.py -nogui
+        pip freeze
+
+    - name: Run NeuroML examples
+      run: |
+        cd NeuroML2
+
+        python test_arbor.py
+        
+        omv install pyneuroML
+        omv install pynn
+        cd neuromllite 
+        pip install pynn==0.10.1
+        ./test.sh
+
+
+    - name: OMV final version info
+      run: |
+        omv list -V # list installed engines
+        env

@@ -1,0 +1,41 @@
+name: Non OMV tests
+
+on:
+  push:
+    branches: [ master, development, test* ]
+  pull_request:
+    branches: [ master, development, test* ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ 3.9, "3.12", "3.13" ]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python  ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version:  ${{ matrix.python-version }}
+
+    - name: Install OMV
+      run: |
+        pip install git+https://github.com/OpenSourceBrain/osb-model-validation
+
+    - name: Install some simulators
+      run: |
+        omv install pyNeuroML
+        omv install Brian2
+
+    - name: Test regeneration
+      run: |
+        ./regenerate.sh
+
+    - name: OMV final version info
+      run: |
+         omv list -V # list installed engines
+         env

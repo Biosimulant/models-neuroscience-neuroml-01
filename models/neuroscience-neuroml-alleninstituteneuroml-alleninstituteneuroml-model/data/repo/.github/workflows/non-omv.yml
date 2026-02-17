@@ -1,0 +1,102 @@
+
+name: Testing non OMV based scripts
+
+on:
+  push:
+    branches: [ master, development, experimental, pg*, add* ]
+  pull_request:
+    branches: [ master, development, experimental, pg*, add* ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ 3.8, 3.9, "3.10" ]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python  ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version:  ${{ matrix.python-version }}
+
+    - name: Install OMV
+      run: |
+        pip install git+https://github.com/OpenSourceBrain/osb-model-validation
+
+    - name: Download some data
+      run: |
+         pip install allensdk==2.15.2
+
+         cd CellTypesDatabase/data
+         python download.py -test
+         ls -alt
+
+    - name: Analyse data
+      run: |
+         cd CellTypesDatabase/data
+         pip install pyelectro
+
+         python extract_data.py -test
+
+    - name: Generate plots of data
+      run: |
+
+         cd CellTypesDatabase/data
+
+         pip install pyneuroml airspeed
+         python data_summary.py -test
+
+    - name: Download selected NEURON models
+      run: |
+         pip install neuron
+         cd CellTypesDatabase/models
+         pip install markupsafe==2.0.1
+         python download.py
+         ls -alt 4*
+
+         echo "Downloading GLIF models"
+         cd GLIF
+         python download_glif.py -test
+
+    - name: Simulate selected NEURON models
+      run: |
+          echo "Simulating a GLIF cell"
+          cd CellTypesDatabase/models/GLIF
+          python run_glif.py -test
+
+
+    - name: Extract NeuroML2 models from NEURON files
+      run: |
+         cd CellTypesDatabase/models
+         nrnivmodl  NEURON
+
+         echo "-----   Parsing perisomatic and all active.."
+         python ParseAll.py -all_active
+         ls -alt NeuroML2
+
+         echo "-----   Parsing GLIF.."
+         cd GLIF
+         pip install git+https://github.com/OpenSourceBrain/OpenCortex
+         export NEURON_HOME=$pythonLocation
+         python parse_glif.py -test
+
+    - name: Tune data
+      run: |
+         cd CellTypesDatabase/tune
+         git clone https://github.com/NeuralEnsemble/neurotune.git
+         cd neurotune/
+         pip install .
+         cd ..
+         rm -rf neurotune
+         export NEURON_HOME=$pythonLocation
+         python tuneAllen.py -izhone
+
+    - name: Final version info
+      run: |
+        pip list
+        env
