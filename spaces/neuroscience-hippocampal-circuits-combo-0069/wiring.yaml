@@ -1,0 +1,44 @@
+modules:
+  hippocampus_ca1_1:
+    class: src.hippocampus_ca1_cck_basket_nmlcl001617_model:HippocampusCa1CckBasketNmlcl001617Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_2:
+    class: src.hippocampus_ca1_fast_firing_parvalbumin_positive_nmlcl001644_model:HippocampusCa1FastFiringParvalbuminPositiveNmlcl001644Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_3:
+    class: src.hippocampus_ca1_ivy_nmlcl001633_model:HippocampusCa1IvyNmlcl001633Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_4:
+    class: src.hippocampus_ca1_network_large_scale_nmlnt001619_model:HippocampusCa1NetworkLargeScaleNmlnt001619Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: hippocampus_ca1_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: hippocampus_ca1_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: hippocampus_ca1_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: hippocampus_ca1_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

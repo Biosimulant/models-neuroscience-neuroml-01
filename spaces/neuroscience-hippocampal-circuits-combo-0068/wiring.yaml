@@ -1,0 +1,44 @@
+modules:
+  ca1_pyramidal_1:
+    class: src.ca1_pyramidal_cell_nmlcl000001_model:Ca1PyramidalCellNmlcl000001Model
+    args:
+      model_path: data/render_xml_file.nml
+  granule_input_2:
+    class: src.granule_input_mossy_fiber_nmlcl000003_model:GranuleInputMossyFiberNmlcl000003Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_3:
+    class: src.hippocampus_ca1_axo_axonic_nmlcl001631_model:HippocampusCa1AxoAxonicNmlcl001631Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_4:
+    class: src.hippocampus_ca1_bistratified_nmlcl001624_model:HippocampusCa1BistratifiedNmlcl001624Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: ca1_pyramidal_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: granule_input_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: hippocampus_ca1_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: hippocampus_ca1_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

@@ -1,0 +1,44 @@
+modules:
+  alleninstitutene_1:
+    class: src.alleninstituteneuroml_alleninstituteneuroml_model:AlleninstituteneuromlAlleninstituteneuromlModel
+    args:
+      model_path: data/repo
+  ampa_grangol_2:
+    class: src.ampa_grangol_nmlsy000080_model:AmpaGrangolNmlsy000080Model
+    args:
+      model_path: data/render_xml_file.nml
+  ampa_l4ss_3:
+    class: src.ampa_l4ss_in_nmlsy000103_model:AmpaL4ssInNmlsy000103Model
+    args:
+      model_path: data/render_xml_file.nml
+  ampa_l4ss_4:
+    class: src.ampa_l4ss_l4ss_nmlsy000104_model:AmpaL4ssL4ssNmlsy000104Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: alleninstitutene_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: ampa_grangol_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: ampa_l4ss_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: ampa_l4ss_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

@@ -1,0 +1,36 @@
+modules:
+  deep_axoaxonic_1:
+    class: src.deep_axoaxonic_nmlcl001134_model:DeepAxoaxonicNmlcl001134Model
+    args:
+      model_path: data/render_xml_file.nml
+  deep_basket_2:
+    class: src.deep_basket_nmlcl001135_model:DeepBasketNmlcl001135Model
+    args:
+      model_path: data/render_xml_file.nml
+  deep_low_3:
+    class: src.deep_low_threshold_spiking_lts_interneuron_nmlcl001136_model:DeepLowThresholdSpikingLtsInterneuronNmlcl001136Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: deep_axoaxonic_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: deep_basket_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: deep_low_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

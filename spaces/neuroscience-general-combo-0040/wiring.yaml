@@ -1,0 +1,36 @@
+modules:
+  cat_t_1:
+    class: src.cat_t_type_transient_low_threshold_inactivating_nmlch001571_model:CatTTypeTransientLowThresholdInactivatingNmlch001571Model
+    args:
+      model_path: data/render_xml_file.nml
+  cat_t_2:
+    class: src.cat_t_type_transient_low_threshold_inactivating_nmlch001598_model:CatTTypeTransientLowThresholdInactivatingNmlch001598Model
+    args:
+      model_path: data/render_xml_file.nml
+  catmaidshowcase_3:
+    class: src.catmaidshowcase_catmaidshowcase_model:CatmaidshowcaseCatmaidshowcaseModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: cat_t_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: cat_t_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: catmaidshowcase_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

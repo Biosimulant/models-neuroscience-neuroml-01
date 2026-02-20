@@ -1,0 +1,36 @@
+modules:
+  ampa_l5rs_1:
+    class: src.ampa_l5rs_deeplts_nmlsy000115_model:AmpaL5rsDeepltsNmlsy000115Model
+    args:
+      model_path: data/render_xml_file.nml
+  ampa_l5rs_2:
+    class: src.ampa_l5rs_l4ss_nmlsy000116_model:AmpaL5rsL4ssNmlsy000116Model
+    args:
+      model_path: data/render_xml_file.nml
+  ampa_l5rs_3:
+    class: src.ampa_l5rs_l5pyr_nmlsy000117_model:AmpaL5rsL5pyrNmlsy000117Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: ampa_l5rs_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: ampa_l5rs_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: ampa_l5rs_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

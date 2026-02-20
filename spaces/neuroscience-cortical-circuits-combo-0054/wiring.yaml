@@ -1,0 +1,36 @@
+modules:
+  gabaa_suplts_1:
+    class: src.gabaa_suplts_l5pyr_nmlsy000180_model:GabaaSupltsL5pyrNmlsy000180Model
+    args:
+      model_path: data/render_xml_file.nml
+  hnn_2:
+    class: src.hnn_hnn_model:HnnHnnModel
+    args:
+      model_path: data/repo
+  lateral_visual_3:
+    class: src.lateral_visual_area_layer_4_aspiny_313862167_nmlcl001438_model:LateralVisualAreaLayer4Aspiny313862167Nmlcl001438Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: gabaa_suplts_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: hnn_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: lateral_visual_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

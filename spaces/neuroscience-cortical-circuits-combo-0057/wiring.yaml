@@ -1,0 +1,44 @@
+modules:
+  layer_burst_1:
+    class: src.layer_1_burst_non_accommodating_horizontal_axon_nmlcl000278_model:Layer1BurstNonAccommodatingHorizontalAxonNmlcl000278Model
+    args:
+      model_path: data/render_xml_file.nml
+  layer_burst_2:
+    class: src.layer_1_burst_non_accommodating_horizontal_axon_nmlcl000279_model:Layer1BurstNonAccommodatingHorizontalAxonNmlcl000279Model
+    args:
+      model_path: data/render_xml_file.nml
+  layer_burst_3:
+    class: src.layer_1_burst_non_accommodating_horizontal_axon_nmlcl000280_model:Layer1BurstNonAccommodatingHorizontalAxonNmlcl000280Model
+    args:
+      model_path: data/render_xml_file.nml
+  layer_burst_4:
+    class: src.layer_1_burst_non_accommodating_horizontal_axon_nmlcl000281_model:Layer1BurstNonAccommodatingHorizontalAxonNmlcl000281Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: layer_burst_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: layer_burst_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: layer_burst_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: layer_burst_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

@@ -1,0 +1,36 @@
+modules:
+  cerebellar_golgi_1:
+    class: src.cerebellar_golgi_cell_nmlcl001604_model:CerebellarGolgiCellNmlcl001604Model
+    args:
+      model_path: data/render_xml_file.nml
+  connectivityshow_2:
+    class: src.connectivityshowcase_connectivityshowcase_model:ConnectivityshowcaseConnectivityshowcaseModel
+    args:
+      model_path: data/repo
+  ct_3:
+    class: src.ct_nmlcl001650_model:CtNmlcl001650Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: cerebellar_golgi_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: connectivityshow_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: ct_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

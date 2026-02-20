@@ -1,0 +1,28 @@
+modules:
+  cahva_high_1:
+    class: src.cahva_high_voltage_activated_calcium_nmlch001436_model:CahvaHighVoltageActivatedCalciumNmlch001436Model
+    args:
+      model_path: data/render_xml_file.nml
+  cal_hva_2:
+    class: src.cal_hva_high_voltage_activated_l_type_calcium_nmlch001607_model:CalHvaHighVoltageActivatedLTypeCalciumNmlch001607Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: cahva_high_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: cal_hva_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

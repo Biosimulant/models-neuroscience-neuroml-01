@@ -1,0 +1,36 @@
+modules:
+  gabaa_deepbask_1:
+    class: src.gabaa_deepbask_l5pyr_nmlsy000156_model:GabaaDeepbaskL5pyrNmlsy000156Model
+    args:
+      model_path: data/render_xml_file.nml
+  gabaa_deeplts_2:
+    class: src.gabaa_deeplts_l5ib_nmlsy000162_model:GabaaDeepltsL5ibNmlsy000162Model
+    args:
+      model_path: data/render_xml_file.nml
+  gabaa_deeplts_3:
+    class: src.gabaa_deeplts_l5rs_nmlsy000163_model:GabaaDeepltsL5rsNmlsy000163Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: gabaa_deepbask_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: gabaa_deeplts_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: gabaa_deeplts_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

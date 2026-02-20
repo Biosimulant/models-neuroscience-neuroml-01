@@ -1,0 +1,44 @@
+modules:
+  hippocampus_ca1_1:
+    class: src.hippocampus_ca1_network_medium_scale_nmlnt001614_model:HippocampusCa1NetworkMediumScaleNmlnt001614Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_2:
+    class: src.hippocampus_ca1_network_small_scale_nmlnt001608_model:HippocampusCa1NetworkSmallScaleNmlnt001608Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_3:
+    class: src.hippocampus_ca1_neurogliaform_ngf_nmlcl001642_model:HippocampusCa1NeurogliaformNgfNmlcl001642Model
+    args:
+      model_path: data/render_xml_file.nml
+  hippocampus_ca1_4:
+    class: src.hippocampus_ca1_o_lm_nmlcl001640_model:HippocampusCa1OLmNmlcl001640Model
+    args:
+      model_path: data/render_xml_file.nml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: hippocampus_ca1_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: hippocampus_ca1_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: hippocampus_ca1_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: hippocampus_ca1_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
