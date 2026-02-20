@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH000017
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH000017
   license: ''
-bsim:
+biosim:
   entrypoint: src.cahva_high_voltage_activated_calcium_nmlch000017_model:CahvaHighVoltageActivatedCalciumNmlch000017Model
   init_kwargs:
     model_path: data/render_xml_file.nml

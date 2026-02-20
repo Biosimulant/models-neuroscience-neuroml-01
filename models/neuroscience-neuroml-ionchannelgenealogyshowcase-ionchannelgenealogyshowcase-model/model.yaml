@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/IonChannelGenealogyShowcase
   download_url: https://github.com/OpenSourceBrain/IonChannelGenealogyShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.ionchannelgenealogyshowcase_ionchannelgenealogyshowcase_model:IonchannelgenealogyshowcaseIonchannelgenealogyshowcaseModel
   init_kwargs:
     model_path: data/repo

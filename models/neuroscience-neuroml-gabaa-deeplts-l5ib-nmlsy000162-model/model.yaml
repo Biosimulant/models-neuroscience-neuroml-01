@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLSY000162
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLSY000162
   license: ''
-bsim:
+biosim:
   entrypoint: src.gabaa_deeplts_l5ib_nmlsy000162_model:GabaaDeepltsL5ibNmlsy000162Model
   init_kwargs:
     model_path: data/render_xml_file.nml

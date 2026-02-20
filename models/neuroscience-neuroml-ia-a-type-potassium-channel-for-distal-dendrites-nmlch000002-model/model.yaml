@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH000002
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH000002
   license: ''
-bsim:
+biosim:
   entrypoint: src.ia_a_type_potassium_channel_for_distal_dendrites_nmlch000002_model:IaATypePotassiumChannelForDistalDendritesNmlch000002Model
   init_kwargs:
     model_path: data/render_xml_file.nml

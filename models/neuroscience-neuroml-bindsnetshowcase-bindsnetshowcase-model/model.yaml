@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/BindsNETShowcase
   download_url: https://github.com/OpenSourceBrain/BindsNETShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.bindsnetshowcase_bindsnetshowcase_model:BindsnetshowcaseBindsnetshowcaseModel
   init_kwargs:
     model_path: data/repo

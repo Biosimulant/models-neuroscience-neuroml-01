@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH000011
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH000011
   license: ''
-bsim:
+biosim:
   entrypoint: src.ia_a_type_potassium_nmlch000011_model:IaATypePotassiumNmlch000011Model
   init_kwargs:
     model_path: data/render_xml_file.nml

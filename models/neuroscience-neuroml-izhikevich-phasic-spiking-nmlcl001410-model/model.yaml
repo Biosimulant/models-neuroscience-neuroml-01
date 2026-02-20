@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001410
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001410
   license: ''
-bsim:
+biosim:
   entrypoint: src.izhikevich_phasic_spiking_nmlcl001410_model:IzhikevichPhasicSpikingNmlcl001410Model
   init_kwargs:
     model_path: data/render_xml_file.nml

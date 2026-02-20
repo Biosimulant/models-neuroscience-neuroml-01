@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/ConnectivityShowcase
   download_url: https://github.com/OpenSourceBrain/ConnectivityShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.connectivityshowcase_connectivityshowcase_model:ConnectivityshowcaseConnectivityshowcaseModel
   init_kwargs:
     model_path: data/repo

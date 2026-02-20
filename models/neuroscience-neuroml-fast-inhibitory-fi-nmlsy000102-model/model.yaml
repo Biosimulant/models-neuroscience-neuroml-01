@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLSY000102
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLSY000102
   license: ''
-bsim:
+biosim:
   entrypoint: src.fast_inhibitory_fi_nmlsy000102_model:FastInhibitoryFiNmlsy000102Model
   init_kwargs:
     model_path: data/render_xml_file.nml

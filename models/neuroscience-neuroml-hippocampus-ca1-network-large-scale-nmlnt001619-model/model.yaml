@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLNT001619
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLNT001619
   license: ''
-bsim:
+biosim:
   entrypoint: src.hippocampus_ca1_network_large_scale_nmlnt001619_model:HippocampusCa1NetworkLargeScaleNmlnt001619Model
   init_kwargs:
     model_path: data/render_xml_file.nml

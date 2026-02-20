@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLSY001643
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLSY001643
   license: ''
-bsim:
+biosim:
   entrypoint: src.double_exponential_synapse_nmlsy001643_model:DoubleExponentialSynapseNmlsy001643Model
   init_kwargs:
     model_path: data/render_xml_file.nml

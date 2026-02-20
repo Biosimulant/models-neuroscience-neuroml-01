@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/HNN
   download_url: https://github.com/OpenSourceBrain/HNN.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.hnn_hnn_model:HnnHnnModel
   init_kwargs:
     model_path: data/repo

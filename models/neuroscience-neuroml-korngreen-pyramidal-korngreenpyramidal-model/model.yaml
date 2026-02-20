@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/korngreen-pyramidal
   download_url: https://github.com/OpenSourceBrain/korngreen-pyramidal.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.korngreen_pyramidal_korngreenpyramidal_model:KorngreenPyramidalKorngreenpyramidalModel
   init_kwargs:
     model_path: data/repo

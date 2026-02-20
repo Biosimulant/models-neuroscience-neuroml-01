@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLSY000128
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLSY000128
   license: ''
-bsim:
+biosim:
   entrypoint: src.ampa_l6nt_supfs_nmlsy000128_model:AmpaL6ntSupfsNmlsy000128Model
   init_kwargs:
     model_path: data/render_xml_file.nml

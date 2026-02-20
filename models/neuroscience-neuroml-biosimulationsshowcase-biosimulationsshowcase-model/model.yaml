@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/BioSimulationsShowcase
   download_url: https://github.com/OpenSourceBrain/BioSimulationsShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.biosimulationsshowcase_biosimulationsshowcase_model:BiosimulationsshowcaseBiosimulationsshowcaseModel
   init_kwargs:
     model_path: data/repo

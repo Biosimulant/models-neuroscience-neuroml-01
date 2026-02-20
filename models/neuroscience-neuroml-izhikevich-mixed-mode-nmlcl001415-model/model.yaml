@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001415
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001415
   license: ''
-bsim:
+biosim:
   entrypoint: src.izhikevich_mixed_mode_nmlcl001415_model:IzhikevichMixedModeNmlcl001415Model
   init_kwargs:
     model_path: data/render_xml_file.nml

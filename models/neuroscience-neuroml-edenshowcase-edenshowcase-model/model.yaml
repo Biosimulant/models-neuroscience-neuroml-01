@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/EDENShowcase
   download_url: https://github.com/OpenSourceBrain/EDENShowcase.git
   license: MIT
-bsim:
+biosim:
   entrypoint: src.edenshowcase_edenshowcase_model:EdenshowcaseEdenshowcaseModel
   init_kwargs:
     model_path: data/repo

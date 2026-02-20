@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL000458
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL000458
   license: ''
-bsim:
+biosim:
   entrypoint: src.layer_1_continuous_accommodating_small_axon_cell_nmlcl000458_model:Layer1ContinuousAccommodatingSmallAxonCellNmlcl000458Model
   init_kwargs:
     model_path: data/render_xml_file.nml

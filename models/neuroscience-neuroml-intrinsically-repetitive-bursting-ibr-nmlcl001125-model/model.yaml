@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001125
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001125
   license: ''
-bsim:
+biosim:
   entrypoint: src.intrinsically_repetitive_bursting_ibr_nmlcl001125_model:IntrinsicallyRepetitiveBurstingIbrNmlcl001125Model
   init_kwargs:
     model_path: data/render_xml_file.nml

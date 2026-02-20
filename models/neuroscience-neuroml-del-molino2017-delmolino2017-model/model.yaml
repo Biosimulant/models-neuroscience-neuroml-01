@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/del-Molino2017
   download_url: https://github.com/OpenSourceBrain/del-Molino2017.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.del_molino2017_delmolino2017_model:DelMolino2017Delmolino2017Model
   init_kwargs:
     model_path: data/repo

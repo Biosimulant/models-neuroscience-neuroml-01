@@ -12,13 +12,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class NeuromlHippocampusCa1NetworkMediumScale(bsim.BioModule):
+class NeuromlHippocampusCa1NetworkMediumScale(biosim.BioModule):
     """BioModule wrapper for NeuroML model: Hippocampus CA1 Network (Medium scale)."""
 
     def __init__(self, model_path: str = "data/render_xml_file.nml", min_dt: float = 0.001) -> None:

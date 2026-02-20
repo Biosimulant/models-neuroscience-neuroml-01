@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/ghk-nernst
   download_url: https://github.com/OpenSourceBrain/ghk-nernst.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.ghk_nernst_ghknernst_model:GhkNernstGhknernstModel
   init_kwargs:
     model_path: data/repo

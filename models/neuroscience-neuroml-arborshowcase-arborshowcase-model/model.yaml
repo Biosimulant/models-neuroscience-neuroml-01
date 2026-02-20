@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/ArborShowcase
   download_url: https://github.com/OpenSourceBrain/ArborShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.arborshowcase_arborshowcase_model:ArborshowcaseArborshowcaseModel
   init_kwargs:
     model_path: data/repo

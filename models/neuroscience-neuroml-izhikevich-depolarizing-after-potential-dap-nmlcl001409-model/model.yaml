@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001409
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001409
   license: ''
-bsim:
+biosim:
   entrypoint: src.izhikevich_depolarizing_after_potential_dap_nmlcl001409_model:IzhikevichDepolarizingAfterPotentialDapNmlcl001409Model
   init_kwargs:
     model_path: data/render_xml_file.nml

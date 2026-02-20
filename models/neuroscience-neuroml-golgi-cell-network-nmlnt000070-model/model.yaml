@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLNT000070
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLNT000070
   license: ''
-bsim:
+biosim:
   entrypoint: src.golgi_cell_network_nmlnt000070_model:GolgiCellNetworkNmlnt000070Model
   init_kwargs:
     model_path: data/render_xml_file.nml

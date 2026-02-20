@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH001528
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH001528
   license: ''
-bsim:
+biosim:
   entrypoint: src.kp_slow_inactivating_potassium_nmlch001528_model:KpSlowInactivatingPotassiumNmlch001528Model
   init_kwargs:
     model_path: data/render_xml_file.nml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL000765
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL000765
   license: ''
-bsim:
+biosim:
   entrypoint: src.layer_1_continuous_non_accommodating_horizontal_nmlcl000765_model:Layer1ContinuousNonAccommodatingHorizontalNmlcl000765Model
   init_kwargs:
     model_path: data/render_xml_file.nml

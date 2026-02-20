@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLSY000105
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLSY000105
   license: ''
-bsim:
+biosim:
   entrypoint: src.ampa_l4ss_pyr_nmlsy000105_model:AmpaL4ssPyrNmlsy000105Model
   init_kwargs:
     model_path: data/render_xml_file.nml

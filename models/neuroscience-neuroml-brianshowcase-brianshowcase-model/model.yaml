@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/BrianShowcase
   download_url: https://github.com/OpenSourceBrain/BrianShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.brianshowcase_brianshowcase_model:BrianshowcaseBrianshowcaseModel
   init_kwargs:
     model_path: data/repo

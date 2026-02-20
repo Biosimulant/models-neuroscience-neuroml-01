@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH001399
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH001399
   license: ''
-bsim:
+biosim:
   entrypoint: src.calva_low_voltage_activated_calcium_nmlch001399_model:CalvaLowVoltageActivatedCalciumNmlch001399Model
   init_kwargs:
     model_path: data/render_xml_file.nml

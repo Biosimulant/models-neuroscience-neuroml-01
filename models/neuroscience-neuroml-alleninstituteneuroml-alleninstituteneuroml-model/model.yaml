@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/AllenInstituteNeuroML
   download_url: https://github.com/OpenSourceBrain/AllenInstituteNeuroML.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.alleninstituteneuroml_alleninstituteneuroml_model:AlleninstituteneuromlAlleninstituteneuromlModel
   init_kwargs:
     model_path: data/repo

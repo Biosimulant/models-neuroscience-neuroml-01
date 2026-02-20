@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001663
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001663
   license: ''
-bsim:
+biosim:
   entrypoint: src.it_nmlcl001663_model:ItNmlcl001663Model
   init_kwargs:
     model_path: data/render_xml_file.nml

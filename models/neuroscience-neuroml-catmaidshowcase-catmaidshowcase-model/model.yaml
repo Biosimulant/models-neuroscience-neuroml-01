@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/CATMAIDShowcase
   download_url: https://github.com/OpenSourceBrain/CATMAIDShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.catmaidshowcase_catmaidshowcase_model:CatmaidshowcaseCatmaidshowcaseModel
   init_kwargs:
     model_path: data/repo

@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001134
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001134
   license: ''
-bsim:
+biosim:
   entrypoint: src.deep_axoaxonic_nmlcl001134_model:DeepAxoaxonicNmlcl001134Model
   init_kwargs:
     model_path: data/render_xml_file.nml

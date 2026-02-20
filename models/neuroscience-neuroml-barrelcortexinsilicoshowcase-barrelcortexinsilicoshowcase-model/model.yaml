@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/BarrelCortexInSilicoShowcase
   download_url: https://github.com/OpenSourceBrain/BarrelCortexInSilicoShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.barrelcortexinsilicoshowcase_barrelcortexinsilicoshowcase_model:BarrelcortexinsilicoshowcaseBarrelcortexinsilicoshowcaseModel
   init_kwargs:
     model_path: data/repo

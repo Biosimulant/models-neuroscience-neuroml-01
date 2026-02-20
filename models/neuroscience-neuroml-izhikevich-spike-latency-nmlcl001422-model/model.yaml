@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001422
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001422
   license: ''
-bsim:
+biosim:
   entrypoint: src.izhikevich_spike_latency_nmlcl001422_model:IzhikevichSpikeLatencyNmlcl001422Model
   init_kwargs:
     model_path: data/render_xml_file.nml

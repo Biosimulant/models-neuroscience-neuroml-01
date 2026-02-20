@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL000277
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL000277
   license: ''
-bsim:
+biosim:
   entrypoint: src.layer_1_burst_non_accommodating_horizontal_axon_nmlcl000277_model:Layer1BurstNonAccommodatingHorizontalAxonNmlcl000277Model
   init_kwargs:
     model_path: data/render_xml_file.nml

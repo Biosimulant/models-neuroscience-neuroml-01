@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH000093
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH000093
   license: ''
-bsim:
+biosim:
   entrypoint: src.im_slow_m_type_potassium_nmlch000093_model:ImSlowMTypePotassiumNmlch000093Model
   init_kwargs:
     model_path: data/render_xml_file.nml

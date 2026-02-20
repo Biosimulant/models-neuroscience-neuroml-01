@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLSY000080
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLSY000080
   license: ''
-bsim:
+biosim:
   entrypoint: src.ampa_grangol_nmlsy000080_model:AmpaGrangolNmlsy000080Model
   init_kwargs:
     model_path: data/render_xml_file.nml

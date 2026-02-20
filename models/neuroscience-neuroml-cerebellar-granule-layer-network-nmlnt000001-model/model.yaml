@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLNT000001
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLNT000001
   license: ''
-bsim:
+biosim:
   entrypoint: src.cerebellar_granule_layer_network_nmlnt000001_model:CerebellarGranuleLayerNetworkNmlnt000001Model
   init_kwargs:
     model_path: data/render_xml_file.nml

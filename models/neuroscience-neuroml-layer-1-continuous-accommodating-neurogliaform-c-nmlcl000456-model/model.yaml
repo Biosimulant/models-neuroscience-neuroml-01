@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL000456
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL000456
   license: ''
-bsim:
+biosim:
   entrypoint: src.layer_1_continuous_accommodating_neurogliaform_c_nmlcl000456_model:Layer1ContinuousAccommodatingNeurogliaformCNmlcl000456Model
   init_kwargs:
     model_path: data/render_xml_file.nml

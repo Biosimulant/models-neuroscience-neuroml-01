@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001135
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001135
   license: ''
-bsim:
+biosim:
   entrypoint: src.deep_basket_nmlcl001135_model:DeepBasketNmlcl001135Model
   init_kwargs:
     model_path: data/render_xml_file.nml

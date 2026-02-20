@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL000770
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL000770
   license: ''
-bsim:
+biosim:
   entrypoint: src.layer_1_continuous_non_accommodating_neurogliafo_nmlcl000770_model:Layer1ContinuousNonAccommodatingNeurogliafoNmlcl000770Model
   init_kwargs:
     model_path: data/render_xml_file.nml

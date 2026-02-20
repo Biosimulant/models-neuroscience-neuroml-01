@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLSY000099
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLSY000099
   license: ''
-bsim:
+biosim:
   entrypoint: src.apical_synapse_nmlsy000099_model:ApicalSynapseNmlsy000099Model
   init_kwargs:
     model_path: data/render_xml_file.nml

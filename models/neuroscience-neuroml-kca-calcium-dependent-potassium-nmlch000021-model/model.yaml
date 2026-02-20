@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH000021
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH000021
   license: ''
-bsim:
+biosim:
   entrypoint: src.kca_calcium_dependent_potassium_nmlch000021_model:KcaCalciumDependentPotassiumNmlch000021Model
   init_kwargs:
     model_path: data/render_xml_file.nml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH001571
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH001571
   license: ''
-bsim:
+biosim:
   entrypoint: src.cat_t_type_transient_low_threshold_inactivating_nmlch001571_model:CatTTypeTransientLowThresholdInactivatingNmlch001571Model
   init_kwargs:
     model_path: data/render_xml_file.nml

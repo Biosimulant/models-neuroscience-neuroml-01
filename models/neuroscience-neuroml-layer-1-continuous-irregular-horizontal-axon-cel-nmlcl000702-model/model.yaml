@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL000702
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL000702
   license: ''
-bsim:
+biosim:
   entrypoint: src.layer_1_continuous_irregular_horizontal_axon_cel_nmlcl000702_model:Layer1ContinuousIrregularHorizontalAxonCelNmlcl000702Model
   init_kwargs:
     model_path: data/render_xml_file.nml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001122
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001122
   license: ''
-bsim:
+biosim:
   entrypoint: src.hippocampus_pyramidal_ca3_nmlcl001122_model:HippocampusPyramidalCa3Nmlcl001122Model
   init_kwargs:
     model_path: data/render_xml_file.nml

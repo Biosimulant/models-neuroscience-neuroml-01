@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCH000019
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCH000019
   license: ''
-bsim:
+biosim:
   entrypoint: src.ih_hyperpolarization_activated_cation_nmlch000019_model:IhHyperpolarizationActivatedCationNmlch000019Model
   init_kwargs:
     model_path: data/render_xml_file.nml

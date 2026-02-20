@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL001642
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL001642
   license: ''
-bsim:
+biosim:
   entrypoint: src.hippocampus_ca1_neurogliaform_ngf_nmlcl001642_model:HippocampusCa1NeurogliaformNgfNmlcl001642Model
   init_kwargs:
     model_path: data/render_xml_file.nml

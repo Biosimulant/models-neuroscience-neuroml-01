@@ -18,7 +18,7 @@ upstream:
   original_url: https://neuroml-db.org/model_info?model_id=NMLCL000100
   download_url: https://neuroml-db.org/render_xml_file?modelID=NMLCL000100
   license: ''
-bsim:
+biosim:
   entrypoint: src.layer_2_3_burst_accommodating_double_bouquet_cel_nmlcl000100_model:Layer23BurstAccommodatingDoubleBouquetCelNmlcl000100Model
   init_kwargs:
     model_path: data/render_xml_file.nml
