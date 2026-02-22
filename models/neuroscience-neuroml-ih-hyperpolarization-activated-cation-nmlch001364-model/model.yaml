@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: IhHyperpolarizationActivatedCationNmlch001364Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ih Hyperpolarization Activated Cation Nmlch001364Model captures neuroscience ih hyperpolarization activated cation nmlch001364 behavior in the context of neuroscience, neuroml, neuroml_db using a n. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

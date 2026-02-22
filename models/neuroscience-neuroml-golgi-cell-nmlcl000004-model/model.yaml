@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: GolgiCellNmlcl000004Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Golgi Cell Nmlcl000004Model models neuroscience golgi cell nmlcl000004 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL000004), focused on neuroscience, neuroml, neuroml_db. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

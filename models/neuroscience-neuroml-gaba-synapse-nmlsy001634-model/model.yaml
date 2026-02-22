@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: GabaSynapseNmlsy001634Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Gaba Synapse Nmlsy001634Model represents neuroscience gaba synapse nmlsy001634 mechanisms from neuroml_db reference neuroml_db:NMLSY001634. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

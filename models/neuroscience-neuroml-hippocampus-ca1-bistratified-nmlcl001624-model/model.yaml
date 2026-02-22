@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: HippocampusCa1BistratifiedNmlcl001624Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Hippocampus Ca1Bistratified Nmlcl001624Model models neuroscience hippocampus ca1 bistratified nmlcl001624 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL001624), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

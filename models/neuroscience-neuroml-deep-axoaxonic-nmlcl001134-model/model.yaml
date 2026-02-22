@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: DeepAxoaxonicNmlcl001134Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Deep Axoaxonic Nmlcl001134Model models neuroscience deep axoaxonic nmlcl001134 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL001134), focused on neuroscience, neuroml, neu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: CalHvaHighVoltageActivatedLTypeCalciumNmlch001607Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Cal Hva High Voltage Activated LType Calcium Nmlch001607Model represents core biological mechanisms from neuroml_db reference neuroml_db:NMLCH001607. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

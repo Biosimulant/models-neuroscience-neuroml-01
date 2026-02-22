@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: DelMolino2017Delmolino2017Model'
-description: This is a reproduction of del Molino et al. 2017 using NeuroML2/LEMS
+description: "This is a reproduction of del Molino et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

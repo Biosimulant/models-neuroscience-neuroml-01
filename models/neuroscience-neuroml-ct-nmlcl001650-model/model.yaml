@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: CtNmlcl001650Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ct Nmlcl001650Model captures neuroscience ct nmlcl001650 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: GabaaNrtNrtSNmlsy000168Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Gabaa Nrt Nrt SNmlsy000168Model represents neuroscience gabaa nrt nrt s nmlsy000168 mechanisms from neuroml_db reference neuroml_db:NMLSY000168. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

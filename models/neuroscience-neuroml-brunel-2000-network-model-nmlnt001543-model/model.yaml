@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Brunel2000NetworkModelNmlnt001543Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Brunel2000Network Model Nmlnt001543Model models neuroscience brunel 2000 network nmlnt001543 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLNT001543), focused on neuroscience. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: IaATypePotassiumNmlch001618Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ia AType Potassium Nmlch001618Model represents neuroscience ia a type potassium nmlch001618 mechanisms from neuroml_db reference neuroml_db:NMLCH001618. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

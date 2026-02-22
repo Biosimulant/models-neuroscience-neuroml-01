@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: IzhikevichClass2ExcitableNmlcl001405Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Izhikevich Class2Excitable Nmlcl001405Model models neuroscience izhikevich class 2 excitable nmlcl001405 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL001405), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

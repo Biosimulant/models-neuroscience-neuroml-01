@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: CahvaHighVoltageActivatedCalciumNmlch000066Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Cahva High Voltage Activated Calcium Nmlch000066Model models neuroscience cahva high voltage activated calcium dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH000066), focus. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

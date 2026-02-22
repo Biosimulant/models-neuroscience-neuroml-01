@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: AmpaL5rsDeepfsNmlsy000114Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ampa L5rs Deepfs Nmlsy000114Model captures neuroscience ampa l5rs deepfs nmlsy000114 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

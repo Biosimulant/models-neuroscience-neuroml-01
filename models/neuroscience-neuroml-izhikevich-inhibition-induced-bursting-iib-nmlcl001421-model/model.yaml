@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: IzhikevichInhibitionInducedBurstingIibNmlcl001421Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Izhikevich Inhibition Induced Bursting Iib Nmlcl001421Model represents core biological mechanisms from neuroml_db reference neuroml_db:NMLCL001421. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

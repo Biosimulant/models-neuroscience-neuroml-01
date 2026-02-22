@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: CalvaLowVoltageActivatedCalciumNmlch000067Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Calva Low Voltage Activated Calcium Nmlch000067Model models neuroscience calva low voltage activated calcium dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH000067), focused. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

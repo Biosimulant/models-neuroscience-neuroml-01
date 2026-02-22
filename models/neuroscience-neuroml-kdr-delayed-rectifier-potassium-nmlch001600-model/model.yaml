@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: KdrDelayedRectifierPotassiumNmlch001600Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Kdr Delayed Rectifier Potassium Nmlch001600Model models neuroscience kdr delayed rectifier potassium nmlch001600 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH001600), foc. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

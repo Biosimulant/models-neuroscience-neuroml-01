@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: FitzhughNagumoRelaxationOscillatorNmlcl001544Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Fitzhugh Nagumo Relaxation Oscillator Nmlcl001544Model models neuroscience fitzhugh nagumo relaxation oscillator nmlcl001544 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

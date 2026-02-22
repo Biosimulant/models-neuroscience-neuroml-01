@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: HnnHnnModel'
-description: Conversion to NeuroML of the Human Neocortical Neurosolver model
+description: "Conversion to NeuroML of the Human Neocortical Neurosolver model. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

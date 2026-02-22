@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: KFastNoninactivatingPotassiumNmlch001465Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience KFast Noninactivating Potassium Nmlch001465Model represents neuroscience k fast noninactivating potassium nmlch001465 mechanisms from neuroml_db reference neuroml_db:NMLCH001465. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

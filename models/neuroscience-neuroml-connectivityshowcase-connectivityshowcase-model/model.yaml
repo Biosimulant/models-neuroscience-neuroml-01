@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ConnectivityshowcaseConnectivityshowcaseModel'
-description: Scripts for importing various connectivity datasets into NeuroML format
+description: "Scripts for importing various connectivity datasets into NeuroML format. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

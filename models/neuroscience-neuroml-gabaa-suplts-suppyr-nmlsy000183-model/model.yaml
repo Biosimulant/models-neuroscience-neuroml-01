@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: GabaaSupltsSuppyrNmlsy000183Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Gabaa Suplts Suppyr Nmlsy000183Model models neuroscience gabaa suplts suppyr nmlsy000183 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000183), focused on neuroscience, ne. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

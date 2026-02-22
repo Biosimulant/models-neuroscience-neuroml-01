@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ApicalSynapseNmlsy000099Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Apical Synapse Nmlsy000099Model models neuroscience apical synapse nmlsy000099 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000099), focused on neuroscience, neuroml, neu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

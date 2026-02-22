@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: IhHyperpolarizationActivatedCationHcnNmlch001635Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ih Hyperpolarization Activated Cation Hcn Nmlch001635Model models core biological dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH001635), focused on neuroscience, neuroml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

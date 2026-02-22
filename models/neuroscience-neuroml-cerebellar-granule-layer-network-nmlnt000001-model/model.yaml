@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: CerebellarGranuleLayerNetworkNmlnt000001Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Cerebellar Granule Layer Network Nmlnt000001Model captures neuroscience cerebellar granule layer network nmlnt000001 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

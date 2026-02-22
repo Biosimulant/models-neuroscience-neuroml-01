@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: KcaSkTypeCalciumDependentPotassiumNmlch000112Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Kca Sk Type Calcium Dependent Potassium Nmlch000112Model models neuroscience kca sk type calcium dependent dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH000112), focused o. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

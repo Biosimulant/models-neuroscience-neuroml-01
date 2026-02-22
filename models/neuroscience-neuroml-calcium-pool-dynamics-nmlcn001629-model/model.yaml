@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: CalciumPoolDynamicsNmlcn001629Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Calcium Pool Dynamics Nmlcn001629Model models neuroscience calcium pool dynamics nmlcn001629 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCN001629), focused on neuroscience. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

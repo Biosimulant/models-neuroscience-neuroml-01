@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: HippocampusCa1OLmNmlcl001640Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Hippocampus Ca1OLm Nmlcl001640Model represents neuroscience hippocampus ca1 o lm nmlcl001640 mechanisms from neuroml_db reference neuroml_db:NMLCL001640. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

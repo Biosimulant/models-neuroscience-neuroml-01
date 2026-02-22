@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: CaLowThresholdCalciumNmlch000133Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ca Low Threshold Calcium Nmlch000133Model represents neuroscience ca low threshold calcium nmlch000133 mechanisms from neuroml_db reference neuroml_db:NMLCH000133. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: GranuleInputMossyFiberNmlcl000003Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Granule Input Mossy Fiber Nmlcl000003Model models neuroscience granule input mossy fiber nmlcl000003 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL000003), focused on neur. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

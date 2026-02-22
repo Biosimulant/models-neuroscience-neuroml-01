@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: HippocampusCa1NeurogliaformNgfNmlcl001642Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Hippocampus Ca1Neurogliaform Ngf Nmlcl001642Model models neuroscience hippocampus ca1 neurogliaform ngf nmlcl001642 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL001642). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

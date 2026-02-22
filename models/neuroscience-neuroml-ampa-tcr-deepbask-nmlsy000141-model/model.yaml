@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: AmpaTcrDeepbaskNmlsy000141Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ampa Tcr Deepbask Nmlsy000141Model represents neuroscience ampa tcr deepbask nmlsy000141 mechanisms from neuroml_db reference neuroml_db:NMLSY000141. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

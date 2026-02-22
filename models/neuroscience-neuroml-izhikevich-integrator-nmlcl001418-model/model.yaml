@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: IzhikevichIntegratorNmlcl001418Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Izhikevich Integrator Nmlcl001418Model represents neuroscience izhikevich integrator nmlcl001418 mechanisms from neuroml_db reference neuroml_db:NMLCL001418. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

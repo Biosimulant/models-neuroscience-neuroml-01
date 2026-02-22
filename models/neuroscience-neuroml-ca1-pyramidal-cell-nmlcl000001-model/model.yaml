@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Ca1PyramidalCellNmlcl000001Model'
-description: Faithful wrapper of upstream NEUROML model.
+description: "Neuroscience Ca1Pyramidal Cell Nmlcl000001Model models neuroscience ca1 pyramidal cell nmlcl000001 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL000001), focused on neuroscience, neuro. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience
