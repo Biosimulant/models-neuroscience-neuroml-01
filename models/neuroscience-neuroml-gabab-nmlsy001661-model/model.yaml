@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GababNmlsy001661Model'
+title: "GABAB"
 description: "Neuroscience Gabab Nmlsy001661Model models neuroscience gabab nmlsy001661 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY001661), focused on neuroscience, neuroml, neuroml_db. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

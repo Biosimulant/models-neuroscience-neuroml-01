@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KdrDelayedRectifierPotassiumNmlch000004Model'
+title: "KDr Delayed Rectifier Potassium"
 description: "Neuroscience Kdr Delayed Rectifier Potassium Nmlch000004Model captures neuroscience kdr delayed rectifier potassium nmlch000004 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-so. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaDeepbaskDeepltsNmlsy000155Model'
+title: "GABAA DeepBask DeepLTS"
 description: "Neuroscience Gabaa Deepbask Deeplts Nmlsy000155Model models neuroscience gabaa deepbask deeplts nmlsy000155 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000155), focused on neuroscien. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

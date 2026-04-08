@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: FastInhibitoryFiNmlsy000102Model'
+title: "Fast Inhibitory (FI)"
 description: "Neuroscience Fast Inhibitory Fi Nmlsy000102Model models neuroscience fast inhibitory fi nmlsy000102 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000102), focused on neuroscience, neur. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

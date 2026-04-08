@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IzhikevichPhasicBurstingNmlcl001411Model'
+title: "Izhikevich Phasic Bursting"
 description: "Neuroscience Izhikevich Phasic Bursting Nmlcl001411Model captures neuroscience izhikevich phasic bursting nmlcl001411 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHE. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

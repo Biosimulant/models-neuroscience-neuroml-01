@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IhHyperpolarizationActivatedCationNmlch001382Model'
+title: "Ih Hyperpolarization Activated Cation"
 description: "Neuroscience Ih Hyperpolarization Activated Cation Nmlch001382Model captures neuroscience ih hyperpolarization activated cation nmlch001382 behavior in the context of neuroscience, neuroml, neuroml_db using a n. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

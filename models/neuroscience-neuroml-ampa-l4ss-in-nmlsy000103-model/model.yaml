@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaL4ssInNmlsy000103Model'
+title: "AMPA L4SS IN"
 description: "Neuroscience Ampa L4ss In Nmlsy000103Model models neuroscience ampa l4ss in nmlsy000103 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000103), focused on neuroscience, neuroml, neuroml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IntrinsicallyRepetitiveBurstingIbrNmlcl001125Model'
+title: "Intrinsically Repetitive Bursting (IBR)"
 description: "Neuroscience Intrinsically Repetitive Bursting Ibr Nmlcl001125Model represents neuroscience intrinsically repetitive bursting ibr nmlcl001125 mechanisms from neuroml_db reference neuroml_db:NMLCL001125. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

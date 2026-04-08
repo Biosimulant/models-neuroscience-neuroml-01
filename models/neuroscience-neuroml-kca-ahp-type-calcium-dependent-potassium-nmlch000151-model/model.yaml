@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KcaAhpTypeCalciumDependentPotassiumNmlch000151Model'
+title: "KCa AHP Type Calcium Dependent Potassium"
 description: "Neuroscience Kca Ahp Type Calcium Dependent Potassium Nmlch000151Model captures neuroscience kca ahp type calcium dependent behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-source. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

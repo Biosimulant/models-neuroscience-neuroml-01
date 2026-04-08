@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: Layer1ContinuousAccommodatingNeurogliaformCNmlcl000456Model'
+title: "Layer 1 Continuous Accommodating Neurogliaform Cell with dense axonal arborization (5)"
 description: "Neuroscience Layer1Continuous Accommodating Neurogliaform CNmlcl000456Model models core biological dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL000456), focused on neuroscience, neuro. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

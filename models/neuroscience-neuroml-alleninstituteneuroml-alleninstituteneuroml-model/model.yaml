@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AlleninstituteneuromlAlleninstituteneuromlModel'
+title: "AllenInstituteNeuroML"
 description: "Example files to test interaction between models developed at the Allen Brain Institute and NeuroML. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:

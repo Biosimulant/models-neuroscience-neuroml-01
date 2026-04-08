@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaL6ntDeepltsNmlsy000123Model'
+title: "AMPA L6NT DeepLTS"
 description: "Neuroscience Ampa L6nt Deeplts Nmlsy000123Model captures neuroscience ampa l6nt deeplts nmlsy000123 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

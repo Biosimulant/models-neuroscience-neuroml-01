@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaSynapseNmlsy001596Model'
+title: "AMPA Synapse"
 description: "Neuroscience Ampa Synapse Nmlsy001596Model represents neuroscience ampa synapse nmlsy001596 mechanisms from neuroml_db reference neuroml_db:NMLSY001596. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

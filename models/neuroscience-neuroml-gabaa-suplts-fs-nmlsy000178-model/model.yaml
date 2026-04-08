@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaSupltsFsNmlsy000178Model'
+title: "GABAA SupLTS FS"
 description: "Neuroscience Gabaa Suplts Fs Nmlsy000178Model models neuroscience gabaa suplts fs nmlsy000178 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000178), focused on neuroscience, neuroml, n. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

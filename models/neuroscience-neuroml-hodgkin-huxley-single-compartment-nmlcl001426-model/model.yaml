@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: HodgkinHuxleySingleCompartmentNmlcl001426Model'
+title: "Hodgkin-Huxley Single Compartment"
 description: "Neuroscience Hodgkin Huxley Single Compartment Nmlcl001426Model represents neuroscience hodgkin huxley single compartment nmlcl001426 mechanisms from neuroml_db reference neuroml_db:NMLCL001426. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

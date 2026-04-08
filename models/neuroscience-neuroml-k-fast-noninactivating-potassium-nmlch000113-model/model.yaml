@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KFastNoninactivatingPotassiumNmlch000113Model'
+title: "K Fast Noninactivating Potassium"
 description: "Neuroscience KFast Noninactivating Potassium Nmlch000113Model models neuroscience k fast noninactivating potassium nmlch000113 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH000113), fo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

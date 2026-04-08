@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: Layer1BurstNonAccommodatingSmallAxonCellNmlcl000289Model'
+title: "Layer 1 Burst Non-accommodating Small Axon Cell (3)"
 description: "Neuroscience Layer1Burst Non Accommodating Small Axon Cell Nmlcl000289Model represents core biological mechanisms from neuroml_db reference neuroml_db:NMLCL000289. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

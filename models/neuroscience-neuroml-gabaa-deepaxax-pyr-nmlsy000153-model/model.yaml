@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaDeepaxaxPyrNmlsy000153Model'
+title: "GABAA DeepAxAx Pyr"
 description: "Neuroscience Gabaa Deepaxax Pyr Nmlsy000153Model models neuroscience gabaa deepaxax pyr nmlsy000153 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000153), focused on neuroscience, neur. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

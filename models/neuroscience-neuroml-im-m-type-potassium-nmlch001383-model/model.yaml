@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: ImMTypePotassiumNmlch001383Model'
+title: "IM M Type Potassium"
 description: "Neuroscience Im MType Potassium Nmlch001383Model models neuroscience im m type potassium nmlch001383 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH001383), focused on neuroscience, neu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: ImMTypePotassiumNmlch000156Model'
+title: "IM M Type Potassium"
 description: "Neuroscience Im MType Potassium Nmlch000156Model represents neuroscience im m type potassium nmlch000156 mechanisms from neuroml_db reference neuroml_db:NMLCH000156. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

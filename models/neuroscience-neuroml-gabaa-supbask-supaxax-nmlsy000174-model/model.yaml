@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaSupbaskSupaxaxNmlsy000174Model'
+title: "GABAA SupBask SupAxAx"
 description: "Neuroscience Gabaa Supbask Supaxax Nmlsy000174Model models neuroscience gabaa supbask supaxax nmlsy000174 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000174), focused on neuroscience. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

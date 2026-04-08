@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaDeepltsSuppyrNmlsy000167Model'
+title: "GABAA DeepLTS SupPyr"
 description: "Neuroscience Gabaa Deeplts Suppyr Nmlsy000167Model represents neuroscience gabaa deeplts suppyr nmlsy000167 mechanisms from neuroml_db reference neuroml_db:NMLSY000167. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

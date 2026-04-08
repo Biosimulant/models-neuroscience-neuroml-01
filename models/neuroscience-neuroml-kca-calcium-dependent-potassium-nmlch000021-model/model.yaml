@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KcaCalciumDependentPotassiumNmlch000021Model'
+title: "KCa Calcium Dependent Potassium"
 description: "Neuroscience Kca Calcium Dependent Potassium Nmlch000021Model captures neuroscience kca calcium dependent potassium nmlch000021 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-so. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

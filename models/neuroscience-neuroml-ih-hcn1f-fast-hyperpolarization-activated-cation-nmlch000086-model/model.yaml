@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IhHcn1fFastHyperpolarizationActivatedCationNmlch000086Model'
+title: "Ih HCN1F Fast Hyperpolarization Activated Cation"
 description: "Neuroscience Ih Hcn1f Fast Hyperpolarization Activated Cation Nmlch000086Model models core biological dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH000086), focused on neuroscience, ne. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

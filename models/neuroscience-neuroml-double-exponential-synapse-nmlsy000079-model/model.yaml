@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: DoubleExponentialSynapseNmlsy000079Model'
+title: "Double Exponential Synapse"
 description: "Neuroscience Double Exponential Synapse Nmlsy000079Model captures neuroscience double exponential synapse nmlsy000079 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHE. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

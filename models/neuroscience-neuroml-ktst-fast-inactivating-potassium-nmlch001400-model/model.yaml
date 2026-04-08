@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KtstFastInactivatingPotassiumNmlch001400Model'
+title: "KTst Fast Inactivating Potassium"
 description: "Neuroscience Ktst Fast Inactivating Potassium Nmlch001400Model models neuroscience ktst fast inactivating potassium nmlch001400 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH001400), f. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

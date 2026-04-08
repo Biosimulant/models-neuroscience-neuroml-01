@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: FastSpikingFsNmlcl001123Model'
+title: "Fast Spiking (FS)"
 description: "Neuroscience Fast Spiking Fs Nmlcl001123Model captures neuroscience fast spiking fs nmlcl001123 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: Layer1BurstNonAccommodatingHorizontalAxonNmlcl000280Model'
+title: "Layer 1 Burst Non-accommodating Horizontal Axon Cell (4)"
 description: "Neuroscience Layer1Burst Non Accommodating Horizontal Axon Nmlcl000280Model models core biological dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL000280), focused on neuroscience, neuro. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

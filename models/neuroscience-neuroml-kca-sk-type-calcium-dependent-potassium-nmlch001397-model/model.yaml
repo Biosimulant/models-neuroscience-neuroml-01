@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KcaSkTypeCalciumDependentPotassiumNmlch001397Model'
+title: "KCa SK Type Calcium Dependent Potassium"
 description: "Neuroscience Kca Sk Type Calcium Dependent Potassium Nmlch001397Model represents neuroscience kca sk type calcium dependent mechanisms from neuroml_db reference neuroml_db:NMLCH001397. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

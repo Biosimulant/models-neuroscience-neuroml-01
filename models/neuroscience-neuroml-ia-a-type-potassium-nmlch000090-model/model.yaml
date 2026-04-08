@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IaATypePotassiumNmlch000090Model'
+title: "IA A Type Potassium"
 description: "Neuroscience Ia AType Potassium Nmlch000090Model models neuroscience ia a type potassium nmlch000090 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH000090), focused on neuroscience, neu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

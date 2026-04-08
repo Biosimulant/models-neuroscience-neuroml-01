@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaDeepltsL5ibNmlsy000162Model'
+title: "GABAA DeepLTS L5IB"
 description: "Neuroscience Gabaa Deeplts L5ib Nmlsy000162Model captures neuroscience gabaa deeplts l5ib nmlsy000162 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

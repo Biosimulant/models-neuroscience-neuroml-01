@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: HippocampusCa1NetworkSmallScaleNmlnt001608Model'
+title: "Hippocampus CA1 Network (Small scale)"
 description: "Neuroscience Hippocampus Ca1Network Small Scale Nmlnt001608Model models neuroscience hippocampus ca1 network small scale dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLNT001608), focused. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

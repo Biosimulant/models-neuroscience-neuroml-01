@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: Layer1ContinuousAccommodatingSmallAxonCellNmlcl000459Model'
+title: "Layer 1 Continuous Accommodating Small Axon Cell (3)"
 description: "Neuroscience Layer1Continuous Accommodating Small Axon Cell Nmlcl000459Model captures core biological behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

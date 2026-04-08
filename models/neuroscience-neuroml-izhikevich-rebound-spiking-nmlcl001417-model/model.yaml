@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IzhikevichReboundSpikingNmlcl001417Model'
+title: "Izhikevich Rebound Spiking"
 description: "Neuroscience Izhikevich Rebound Spiking Nmlcl001417Model captures neuroscience izhikevich rebound spiking nmlcl001417 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHE. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

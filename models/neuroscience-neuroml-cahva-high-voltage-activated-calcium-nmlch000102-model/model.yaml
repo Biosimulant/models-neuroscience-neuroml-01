@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: CahvaHighVoltageActivatedCalciumNmlch000102Model'
+title: "CaHVA High Voltage Activated Calcium"
 description: "Neuroscience Cahva High Voltage Activated Calcium Nmlch000102Model captures neuroscience cahva high voltage activated calcium behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sour. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

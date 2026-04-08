@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: CalciumPoolDynamicsNmlcn000015Model'
+title: "Calcium Pool Dynamics"
 description: "Neuroscience Calcium Pool Dynamics Nmlcn000015Model represents neuroscience calcium pool dynamics nmlcn000015 mechanisms from neuroml_db reference neuroml_db:NMLCN000015. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

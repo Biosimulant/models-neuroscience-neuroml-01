@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: HippocampusCa1SchafferCollateralAssociatedSNmlcl001630Model'
+title: "Hippocampus CA1 Schaffer Collateral-Associated (SCA)"
 description: "Neuroscience Hippocampus Ca1Schaffer Collateral Associated SNmlcl001630Model captures core biological behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

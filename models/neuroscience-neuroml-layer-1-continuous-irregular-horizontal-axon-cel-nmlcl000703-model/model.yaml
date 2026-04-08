@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: Layer1ContinuousIrregularHorizontalAxonCelNmlcl000703Model'
+title: "Layer 1 Continuous Irregular Horizontal Axon Cell (2)"
 description: "Neuroscience Layer1Continuous Irregular Horizontal Axon Cel Nmlcl000703Model models core biological dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL000703), focused on neuroscience, neur. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

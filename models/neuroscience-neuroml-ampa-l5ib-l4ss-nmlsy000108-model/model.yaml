@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaL5ibL4ssNmlsy000108Model'
+title: "AMPA L5IB L4SS"
 description: "Neuroscience Ampa L5ib L4ss Nmlsy000108Model captures neuroscience ampa l5ib l4ss nmlsy000108 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

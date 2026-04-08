@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: EdenshowcaseEdenshowcaseModel'
+title: "EDENShowcase"
 description: "Repository for testing EDEN simulator with NeuroML, OSB, notebooks, etc. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:

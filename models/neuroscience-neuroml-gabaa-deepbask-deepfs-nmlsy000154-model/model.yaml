@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaDeepbaskDeepfsNmlsy000154Model'
+title: "GABAA DeepBask DeepFS"
 description: "Neuroscience Gabaa Deepbask Deepfs Nmlsy000154Model represents neuroscience gabaa deepbask deepfs nmlsy000154 mechanisms from neuroml_db reference neuroml_db:NMLSY000154. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

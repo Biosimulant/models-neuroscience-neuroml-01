@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: LateralVisualAreaLayer4Spiny478499902Nmlcl001450Model'
+title: "Lateral visual area layer 4 spiny 478499902"
 description: "Neuroscience Lateral Visual Area Layer4Spiny478499902Nmlcl001450Model models neuroscience lateral visual area layer 4 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL001450), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

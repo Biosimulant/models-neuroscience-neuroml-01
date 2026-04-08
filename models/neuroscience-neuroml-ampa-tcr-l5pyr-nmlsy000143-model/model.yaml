@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaTcrL5pyrNmlsy000143Model'
+title: "AMPA TCR L5Pyr"
 description: "Neuroscience Ampa Tcr L5pyr Nmlsy000143Model models neuroscience ampa tcr l5pyr nmlsy000143 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000143), focused on neuroscience, neuroml, neu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

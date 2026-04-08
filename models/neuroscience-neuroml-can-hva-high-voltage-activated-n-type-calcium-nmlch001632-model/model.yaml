@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: CanHvaHighVoltageActivatedNTypeCalciumNmlch001632Model'
+title: "CaN HVA High Voltage Activated N-type Calcium"
 description: "Neuroscience Can Hva High Voltage Activated NType Calcium Nmlch001632Model models core biological dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH001632), focused on neuroscience, neurom. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

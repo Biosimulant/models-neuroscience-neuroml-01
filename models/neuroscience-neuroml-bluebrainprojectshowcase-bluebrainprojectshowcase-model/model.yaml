@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: BluebrainprojectshowcaseBluebrainprojectshowcaseModel'
+title: "BlueBrainProjectShowcase"
 description: "A project to illustrate how models and data from the Blue Brain Project can be converted to NeuroML and PyNN. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:

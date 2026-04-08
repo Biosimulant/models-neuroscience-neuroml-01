@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: BarrelcortexinsilicoshowcaseBarrelcortexinsilicoshowcaseModel'
+title: "BarrelCortexInSilicoShowcase"
 description: "Example scripts for exporting elements of BarrelCortexInSilico to NeuroML. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:

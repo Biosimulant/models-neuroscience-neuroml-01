@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KpstSlowInactivatingPotassiumNmlch001402Model'
+title: "KPst Slow Inactivating Potassium"
 description: "Neuroscience Kpst Slow Inactivating Potassium Nmlch001402Model represents neuroscience kpst slow inactivating potassium nmlch001402 mechanisms from neuroml_db reference neuroml_db:NMLCH001402. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

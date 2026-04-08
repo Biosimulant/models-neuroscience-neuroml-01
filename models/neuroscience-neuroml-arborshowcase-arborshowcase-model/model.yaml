@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: ArborshowcaseArborshowcaseModel'
+title: "ArborShowcase"
 description: "Neuroscience Arborshowcase Arborshowcase Model represents neuroscience arborshowcase arborshowcase mechanisms from opensourcebrain reference opensourcebrain:ArborShowcase. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

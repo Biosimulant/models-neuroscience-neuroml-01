@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KcaBkTypeFastCalciumDependentPotassiumNmlch000152Model'
+title: "KCa BK Type Fast Calcium Dependent Potassium"
 description: "Neuroscience Kca Bk Type Fast Calcium Dependent Potassium Nmlch000152Model represents core biological mechanisms from neuroml_db reference neuroml_db:NMLCH000152. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

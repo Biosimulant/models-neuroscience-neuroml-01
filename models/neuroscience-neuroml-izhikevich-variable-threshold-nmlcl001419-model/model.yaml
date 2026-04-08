@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IzhikevichVariableThresholdNmlcl001419Model'
+title: "Izhikevich Variable Threshold"
 description: "Neuroscience Izhikevich Variable Threshold Nmlcl001419Model models neuroscience izhikevich variable threshold nmlcl001419 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL001419), focused. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

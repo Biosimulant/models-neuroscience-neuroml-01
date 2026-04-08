@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaSuppyrSupltsNmlsy000138Model'
+title: "AMPA SupPyr SupLTS"
 description: "Neuroscience Ampa Suppyr Suplts Nmlsy000138Model models neuroscience ampa suppyr suplts nmlsy000138 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000138), focused on neuroscience, neur. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

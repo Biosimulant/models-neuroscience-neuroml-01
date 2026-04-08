@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KSlowPotassiumNmlch001622Model'
+title: "K Slow Potassium"
 description: "Neuroscience KSlow Potassium Nmlch001622Model models neuroscience k slow potassium nmlch001622 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH001622), focused on neuroscience, neuroml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

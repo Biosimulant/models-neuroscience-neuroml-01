@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: IzhikevichSpikeLatencyNmlcl001422Model'
+title: "Izhikevich Spike Latency"
 description: "Neuroscience Izhikevich Spike Latency Nmlcl001422Model captures neuroscience izhikevich spike latency nmlcl001422 behavior in the context of neuroscience, neuroml, neuroml_db using a neuroml_db-sourced OTHER mo. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

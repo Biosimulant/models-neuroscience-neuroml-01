@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: HippocampusPyramidalCa3Nmlcl001122Model'
+title: "Hippocampus Pyramidal CA3"
 description: "Neuroscience Hippocampus Pyramidal Ca3Nmlcl001122Model represents neuroscience hippocampus pyramidal ca3 nmlcl001122 mechanisms from neuroml_db reference neuroml_db:NMLCL001122. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

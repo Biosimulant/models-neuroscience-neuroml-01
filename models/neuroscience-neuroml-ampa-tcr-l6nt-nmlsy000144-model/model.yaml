@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaTcrL6ntNmlsy000144Model'
+title: "AMPA TCR L6NT"
 description: "Neuroscience Ampa Tcr L6nt Nmlsy000144Model represents neuroscience ampa tcr l6nt nmlsy000144 mechanisms from neuroml_db reference neuroml_db:NMLSY000144. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

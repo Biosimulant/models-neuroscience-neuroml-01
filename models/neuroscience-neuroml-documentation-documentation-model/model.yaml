@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: DocumentationDocumentationModel'
+title: "Documentation"
 description: "Updated documentation for the Open Source Brain platform using Jupyter Book. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: CalciumConcentrationNmlcn000002Model'
+title: "Calcium Concentration"
 description: "Neuroscience Calcium Concentration Nmlcn000002Model models neuroscience calcium concentration nmlcn000002 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCN000002), focused on neuroscience. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

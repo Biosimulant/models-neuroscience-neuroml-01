@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KFastPotassiumNmlch001549Model'
+title: "K Fast Potassium"
 description: "Neuroscience KFast Potassium Nmlch001549Model models neuroscience k fast potassium nmlch001549 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCH001549), focused on neuroscience, neuroml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: K2TypeSlowlyActivatingAndInactivatingPotasNmlch000146Model'
+title: "K2 Type Slowly Activating and Inactivating Potassium"
 description: "Neuroscience K2Type Slowly Activating And Inactivating Potas Nmlch000146Model represents core biological mechanisms from neuroml_db reference neuroml_db:NMLCH000146. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

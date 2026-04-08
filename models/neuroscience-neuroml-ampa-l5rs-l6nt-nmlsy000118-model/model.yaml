@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: AmpaL5rsL6ntNmlsy000118Model'
+title: "AMPA L5RS L6NT"
 description: "Neuroscience Ampa L5rs L6nt Nmlsy000118Model models neuroscience ampa l5rs l6nt nmlsy000118 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLSY000118), focused on neuroscience, neuroml, neu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: CalvaLowVoltageActivatedCalciumNmlch000103Model'
+title: "CaLVA Low Voltage Activated Calcium"
 description: "Neuroscience Calva Low Voltage Activated Calcium Nmlch000103Model represents neuroscience calva low voltage activated calcium mechanisms from neuroml_db reference neuroml_db:NMLCH000103. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

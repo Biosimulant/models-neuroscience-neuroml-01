@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: CaCalciumNmlch000118Model'
+title: "Ca Calcium"
 description: "Neuroscience Ca Calcium Nmlch000118Model represents neuroscience ca calcium nmlch000118 mechanisms from neuroml_db reference neuroml_db:NMLCH000118. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

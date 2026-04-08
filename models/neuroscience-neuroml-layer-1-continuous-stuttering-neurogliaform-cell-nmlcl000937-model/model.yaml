@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: Layer1ContinuousStutteringNeurogliaformCellNmlcl000937Model'
+title: "Layer 1 Continuous Stuttering Neurogliaform Cell with dense axonal arborization (1)"
 description: "Neuroscience Layer1Continuous Stuttering Neurogliaform Cell Nmlcl000937Model represents core biological mechanisms from neuroml_db reference neuroml_db:NMLCL000937. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

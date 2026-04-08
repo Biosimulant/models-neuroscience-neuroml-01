@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: KdrDelayedRectifierPotassiumChannelForFastNmlch000154Model'
+title: "KDr Delayed Rectifier Potassium Channel for Fast Spiking (FS) Interneurons"
 description: "Neuroscience Kdr Delayed Rectifier Potassium Channel For Fast Nmlch000154Model represents core biological mechanisms from neuroml_db reference neuroml_db:NMLCH000154. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

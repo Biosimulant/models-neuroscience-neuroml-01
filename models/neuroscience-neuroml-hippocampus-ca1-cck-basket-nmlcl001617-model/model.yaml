@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: HippocampusCa1CckBasketNmlcl001617Model'
+title: "Hippocampus CA1 CCK+ Basket"
 description: "Neuroscience Hippocampus Ca1Cck Basket Nmlcl001617Model models neuroscience hippocampus ca1 cck basket nmlcl001617 dynamics as a OTHER simulation curated from neuroml_db (neuroml_db:NMLCL001617), focused on neu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

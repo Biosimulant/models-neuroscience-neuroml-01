@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Neuroscience: GabaaDeepltsL5rsNmlsy000163Model'
+title: "GABAA DeepLTS L5RS"
 description: "Neuroscience Gabaa Deeplts L5rs Nmlsy000163Model represents neuroscience gabaa deeplts l5rs nmlsy000163 mechanisms from neuroml_db reference neuroml_db:NMLSY000163. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
