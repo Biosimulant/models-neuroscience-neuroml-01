@@ -16,9 +16,8 @@ This model was auto-generated from the neuroml_db repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/neuroscience-neuroml-elect-suppyr-suppyr-nmlsy000152-model
     alias: model
-    manifest_path: models/neuroscience-neuroml-elect-suppyr-suppyr-nmlsy000152-model/model.yaml
 ```
 
 ## Tags

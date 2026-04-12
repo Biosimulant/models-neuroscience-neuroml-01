@@ -16,9 +16,8 @@ This model was auto-generated from the neuroml_db repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/neuroscience-neuroml-ih-hyperpolarization-activated-cation-nmlch000142-model
     alias: model
-    manifest_path: models/neuroscience-neuroml-ih-hyperpolarization-activated-cation-nmlch000142-model/model.yaml
 ```
 
 ## Tags

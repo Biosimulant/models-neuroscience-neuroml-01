@@ -16,9 +16,8 @@ This model was auto-generated from the neuroml_db repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/neuroscience-neuroml-im-m-type-potassium-nmlch000105-model
     alias: model
-    manifest_path: models/neuroscience-neuroml-im-m-type-potassium-nmlch000105-model/model.yaml
 ```
 
 ## Tags

@@ -16,9 +16,8 @@ This model was auto-generated from the neuroml_db repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/neuroscience-neuroml-layer-1-burst-non-accommodating-small-axon-cell-nmlcl000289-model
     alias: model
-    manifest_path: models/neuroscience-neuroml-layer-1-burst-non-accommodating-small-axon-cell-nmlcl000289-model/model.yaml
 ```
 
 ## Tags
